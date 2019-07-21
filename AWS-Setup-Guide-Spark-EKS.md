@@ -63,7 +63,7 @@ The source code repository contains a terraform template which provisions the ne
         }
         ```
 
-* Next you will update the backend configuration where terraform stores its state by editing the file `infrastructure/tf/main/tf`.
+* Next you will update the backend configuration where terraform stores its state by editing the file `infrastructure/tf/main.tf`.
 
     1. Find the backend that looks like the example below:
 
@@ -101,7 +101,7 @@ Now that terraform is configured, you can bootstrap terraform, generate an infra
 1. Navigate to the terraform project folder
 
     ```bash
-    cd variantspark-k/infrastructure.tf/
+    cd variantspark-k/infrastructure/tf/
     ```
 1. Bootstrap terraform
 
