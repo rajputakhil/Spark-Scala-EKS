@@ -101,7 +101,7 @@ Now that terraform is configured, you can bootstrap terraform, generate an infra
 1. Navigate to the terraform project folder
 
     ```bash
-    cd variantspark-k/infrastructure/tf/
+    cd variantspark-k/infrastructure.tf/
     ```
 1. Bootstrap terraform
 
